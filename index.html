@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bechtle STRAT26 Tracks</title>
+  <style>
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, sans-serif;
+      background-image: url('Snapshot.jpg');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.65);
+      z-index: 0;
+    }
+
+    .container {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 60px 24px 80px;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-align: center;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    .subtitle {
+      color: rgba(255, 255, 255, 0.45);
+      font-size: 0.85rem;
+      text-align: center;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 52px;
+    }
+
+    .track-card {
+      background: rgba(0, 0, 0, 0.55);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 20px;
+      backdrop-filter: blur(6px);
+      -webkit-backdrop-filter: blur(6px);
+    }
+
+    .track-number {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.35);
+      margin-bottom: 6px;
+    }
+
+    .track-title {
+      color: #ffffff;
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+
+    .track-meta {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.82rem;
+      margin-bottom: 18px;
+      font-style: italic;
+    }
+
+    audio {
+      width: 100%;
+      height: 36px;
+      accent-color: #a78bfa;
+      border-radius: 6px;
+      outline: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Bechtle STRAT26 Tracks</h1>
+    <p class="subtitle">Pre-Listening</p>
+
+    <div class="track-card">
+      <div class="track-number">Track 01</div>
+      <div class="track-title">Accelerated Change (Drum'n'Bass)</div>
+      <div class="track-meta">Vision 2026 ReWork</div>
+      <audio controls>
+        <source src="Accelerated Change (Drum'n'Bass) [Vision 2026 ReWork].mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="track-card">
+      <div class="track-number">Track 02</div>
+      <div class="track-title">Power of Potential (Jungle Version)</div>
+      <div class="track-meta">Opener 2025</div>
+      <audio controls>
+        <source src="Power of Potential (Jungle Version) [Opener 2025].mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="track-card">
+      <div class="track-number">Track 03</div>
+      <div class="track-title">Prepared for Success (Techno &amp; Cinematic)</div>
+      <div class="track-meta">Opener 2026</div>
+      <audio controls>
+        <source src="Prepared for Success (Techno &amp; Cinematic) [Opener 2026].mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+    <div class="track-card">
+      <div class="track-number">Track 04</div>
+      <div class="track-title">The Future is... (Future Bass)</div>
+      <div class="track-meta">Europe United</div>
+      <audio controls>
+        <source src="The Future is... (Future Bass) [Europe United].mp3" type="audio/mpeg">
+      </audio>
+    </div>
+
+  </div>
+</body>
+</html>
 
